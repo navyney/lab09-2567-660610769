@@ -33,7 +33,7 @@ export default function Task({
         But if task is not completed : 
         <span>{title}</span>
       */}
-      <span className = {completed ? "text-decoration-line-thrugh":""}>{title}</span>
+      <span className = {completed ? "text-decoration-line-through":""}>{title}</span>
       <button className="btn btn-success" onClick={DoneBtnOnClick}>Done</button>
       <button className="btn btn-danger" onClick={deleteBtnOnClick}>
         Delete
